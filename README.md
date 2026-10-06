@@ -33,7 +33,7 @@ BOSS直聘 网页版自动化招聘助手：**精准筛选候选人 → 批量�
 **1. 获取代码**
 
 ```bash
-git clone https://github.com/<你的用户名>/HRBOSS.git
+git clone https://github.com/zhbo192883/HRBOSS.git
 cd HRBOSS
 ```
 
