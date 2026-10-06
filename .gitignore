@@ -1,0 +1,36 @@
+# ===== 运行时产物 =====
+# 浏览器配置目录：内含 BOSS直聘 登录态、Cookie、缓存，体积可达数百 MB，严禁提交
+browser_runtime/
+# 运行日志与候选人导出（matched_candidates.csv / skipped_candidates.csv 含真实个人信息）
+logs/
+# 已联系候选人指纹库（去重用的真实候选人数据）
+contacted_fingerprints.json
+
+# ===== 知识库 =====
+# 首次运行会自动生成以下两个文件，填好后会包含真实微信号、手机号等联系方式，默认不提交
+knowledge/
+
+# ===== 本地配置 =====
+# 存有 DeepSeek API Key 和岗位配置，一律保留在本地
+boss_ai_cfg.json
+boss_recruiter_cfg.json
+*.local.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,7 @@
+# 浏览器自动化驱动（连接本机 Chrome / Edge，操控 BOSS直聘 网页版）
+DrissionPage>=4.1.0
+
+# 调用 DeepSeek API 生成 AI 回复
+requests>=2.28.0
+
+# tkinter 为 Python 标准库，Windows 版 Python 默认自带，无需在此声明
